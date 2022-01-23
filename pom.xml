@@ -7,7 +7,7 @@
 	<groupId>com.pintoeat.api</groupId>
 	<artifactId>pintoeat-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>pintoeat-api</name>
 	<description>PTE project for Spring Boot</description>
 
