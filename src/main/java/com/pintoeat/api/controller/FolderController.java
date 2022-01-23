@@ -57,7 +57,7 @@ public class FolderController {
 	}
 	
 	@RequestMapping(value = "/GetTest", method = RequestMethod.GET)
-	public string GetTest() {
+	public String GetTest() {
 		return "TestApI Path Get Test";
 	}
 	
