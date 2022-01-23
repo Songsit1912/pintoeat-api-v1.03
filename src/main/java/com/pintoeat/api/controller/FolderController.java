@@ -56,6 +56,10 @@ public class FolderController {
 		return resultList;
 	}
 	
+	@RequestMapping(value = "/GetTest", method = RequestMethod.GET)
+	public string GetTest() {
+		return "TestApI Path Get Test";
+	}
 	
 	@RequestMapping(value = "/getById/{id}", method = RequestMethod.GET)
 	public Folder getById(@PathVariable("id") String id, HttpServletRequest request) {
