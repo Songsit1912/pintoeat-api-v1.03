@@ -14,6 +14,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.*;
+
 @RestController
 @Configuration
 @EnableAutoConfiguration
