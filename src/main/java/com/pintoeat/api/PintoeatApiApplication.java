@@ -26,6 +26,12 @@ public class PintoeatApiApplication extends SpringBootServletInitializer {
 		SpringApplication.run(PintoeatApiApplication.class, args);
 	}
 	
+	@RequestMapping("/")
+	@ResponseBody
+	String home(){
+		return "Hello world";	
+	}
+	
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 		return application.sources(PintoeatApiApplication.class);
 	}
